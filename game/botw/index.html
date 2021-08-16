@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title> - Run Together TW</title><meta name="gridsome:hash" content="e8e7774303053f8526201d049a6ee419ba8de617"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.23"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/blog/assets/static/favicon.ce0531f.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/blog/assets/static/favicon.ac8d93a.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/blog/assets/static/favicon.b9532cc.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/blog/assets/static/favicon.f22e9f3.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/blog/assets/static/favicon.62d22cb.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/blog/assets/static/favicon.1539b60.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/blog/assets/static/favicon.dc0cdc5.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/blog/assets/static/favicon.7b22250.3ad9dac92f62be97e028b4d25b6cdfb5.png"><link data-vue-tag="ssr" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"><link rel="preload" href="/blog/assets/css/0.styles.545aa620.css" as="style"><link rel="preload" href="/blog/assets/js/app.76187cbd.js" as="script"><link rel="preload" href="/blog/assets/js/page--src--templates--game-vue.90f0fa4b.js" as="script"><link rel="prefetch" href="/blog/assets/js/page--node-modules--gridsome--app--pages--404-vue.329011ea.js"><link rel="prefetch" href="/blog/assets/js/page--src--pages--about-vue.6aa2bbdd.js"><link rel="prefetch" href="/blog/assets/js/page--src--pages--index-vue.1e14e66f.js"><link rel="prefetch" href="/blog/assets/js/page--src--pages--post-list-vue.cafb6919.js"><link rel="prefetch" href="/blog/assets/js/page--src--pages--speedrun-generator-vue.abb93846.js"><link rel="prefetch" href="/blog/assets/js/page--src--templates--author-vue.62e2204e.js"><link rel="prefetch" href="/blog/assets/js/page--src--templates--post-vue.3accdd14.js"><link rel="prefetch" href="/blog/assets/js/page--src--templates--tag-vue.297c7864.js"><link rel="prefetch" href="/blog/assets/js/vendors~page--src--pages--speedrun-generator-vue~page--src--templates--post-vue.297c04d4.js"><link rel="stylesheet" href="/blog/assets/css/0.styles.545aa620.css"><style data-vue-tag="vuetify" type="text/css" id="vuetify-theme-stylesheet" nonce="undefined">.v-application a { color: #4bb660; }
+.v-application .primary {
+  background-color: #4bb660 !important;
+  border-color: #4bb660 !important;
+}
+.v-application .primary--text {
+  color: #4bb660 !important;
+  caret-color: #4bb660 !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #dcffe7 !important;
+  border-color: #dcffe7 !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #dcffe7 !important;
+  caret-color: #dcffe7 !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #bfffcb !important;
+  border-color: #bfffcb !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #bfffcb !important;
+  caret-color: #bfffcb !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #a2ffaf !important;
+  border-color: #a2ffaf !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #a2ffaf !important;
+  caret-color: #a2ffaf !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #85ef94 !important;
+  border-color: #85ef94 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #85ef94 !important;
+  caret-color: #85ef94 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #68d27a !important;
+  border-color: #68d27a !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #68d27a !important;
+  caret-color: #68d27a !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #2b9b47 !important;
+  border-color: #2b9b47 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #2b9b47 !important;
+  caret-color: #2b9b47 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #00802f !important;
+  border-color: #00802f !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #00802f !important;
+  caret-color: #00802f !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #006617 !important;
+  border-color: #006617 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #006617 !important;
+  caret-color: #006617 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #004d00 !important;
+  border-color: #004d00 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #004d00 !important;
+  caret-color: #004d00 !important;
+}
+.v-application .secondary {
+  background-color: #424242 !important;
+  border-color: #424242 !important;
+}
+.v-application .secondary--text {
+  color: #424242 !important;
+  caret-color: #424242 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #c1c1c1 !important;
+  border-color: #c1c1c1 !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #c1c1c1 !important;
+  caret-color: #c1c1c1 !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #a6a6a6 !important;
+  border-color: #a6a6a6 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #a6a6a6 !important;
+  caret-color: #a6a6a6 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #8b8b8b !important;
+  border-color: #8b8b8b !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #8b8b8b !important;
+  caret-color: #8b8b8b !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #727272 !important;
+  border-color: #727272 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #727272 !important;
+  caret-color: #727272 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #595959 !important;
+  border-color: #595959 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #595959 !important;
+  caret-color: #595959 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #2c2c2c !important;
+  border-color: #2c2c2c !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #2c2c2c !important;
+  caret-color: #2c2c2c !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #171717 !important;
+  border-color: #171717 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #171717 !important;
+  caret-color: #171717 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent {
+  background-color: #ff4081 !important;
+  border-color: #ff4081 !important;
+}
+.v-application .accent--text {
+  color: #ff4081 !important;
+  caret-color: #ff4081 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #ffd8ff !important;
+  border-color: #ffd8ff !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #ffd8ff !important;
+  caret-color: #ffd8ff !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #ffbaed !important;
+  border-color: #ffbaed !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #ffbaed !important;
+  caret-color: #ffbaed !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #ff9dd1 !important;
+  border-color: #ff9dd1 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #ff9dd1 !important;
+  caret-color: #ff9dd1 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #ff7fb6 !important;
+  border-color: #ff7fb6 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #ff7fb6 !important;
+  caret-color: #ff7fb6 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #ff619b !important;
+  border-color: #ff619b !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #ff619b !important;
+  caret-color: #ff619b !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #df1368 !important;
+  border-color: #df1368 !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #df1368 !important;
+  caret-color: #df1368 !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #c00050 !important;
+  border-color: #c00050 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #c00050 !important;
+  caret-color: #c00050 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #a1003a !important;
+  border-color: #a1003a !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #a1003a !important;
+  caret-color: #a1003a !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #820025 !important;
+  border-color: #820025 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #820025 !important;
+  caret-color: #820025 !important;
+}
+.v-application .error {
+  background-color: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.v-application .error--text {
+  color: #ff5252 !important;
+  caret-color: #ff5252 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffe4d5 !important;
+  border-color: #ffe4d5 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffe4d5 !important;
+  caret-color: #ffe4d5 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ffc6b9 !important;
+  border-color: #ffc6b9 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ffc6b9 !important;
+  caret-color: #ffc6b9 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ffa99e !important;
+  border-color: #ffa99e !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ffa99e !important;
+  caret-color: #ffa99e !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ff8c84 !important;
+  border-color: #ff8c84 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ff8c84 !important;
+  caret-color: #ff8c84 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ff6f6a !important;
+  border-color: #ff6f6a !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ff6f6a !important;
+  caret-color: #ff6f6a !important;
+}
+.v-application .error.darken-1 {
+  background-color: #df323b !important;
+  border-color: #df323b !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #df323b !important;
+  caret-color: #df323b !important;
+}
+.v-application .error.darken-2 {
+  background-color: #bf0025 !important;
+  border-color: #bf0025 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #bf0025 !important;
+  caret-color: #bf0025 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #9f0010 !important;
+  border-color: #9f0010 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #9f0010 !important;
+  caret-color: #9f0010 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #800000 !important;
+  border-color: #800000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #800000 !important;
+  caret-color: #800000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}
+.v-application .white {
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+}
+.v-application .white--text {
+  color: #eeeeee !important;
+  caret-color: #eeeeee !important;
+}
+.v-application .white.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .white--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .white.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .white--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .white.lighten-3 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .white--text.text--lighten-3 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .white.lighten-2 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .white--text.text--lighten-2 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .white.lighten-1 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .white--text.text--lighten-1 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .white.darken-1 {
+  background-color: #d2d2d2 !important;
+  border-color: #d2d2d2 !important;
+}
+.v-application .white--text.text--darken-1 {
+  color: #d2d2d2 !important;
+  caret-color: #d2d2d2 !important;
+}
+.v-application .white.darken-2 {
+  background-color: #b6b6b6 !important;
+  border-color: #b6b6b6 !important;
+}
+.v-application .white--text.text--darken-2 {
+  color: #b6b6b6 !important;
+  caret-color: #b6b6b6 !important;
+}
+.v-application .white.darken-3 {
+  background-color: #9b9b9b !important;
+  border-color: #9b9b9b !important;
+}
+.v-application .white--text.text--darken-3 {
+  color: #9b9b9b !important;
+  caret-color: #9b9b9b !important;
+}
+.v-application .white.darken-4 {
+  background-color: #818181 !important;
+  border-color: #818181 !important;
+}
+.v-application .white--text.text--darken-4 {
+  color: #818181 !important;
+  caret-color: #818181 !important;
+}</style><script data-vue-tag="ssr" src="https://platform.twitter.com/widgets.js" data-body="false"></script><script data-vue-tag="ssr" src="/blog/js/embed.js" data-body="false"></script><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-app="true" data-server-rendered="true" id="app" id="app" class="v-application layout v-application--is-ltr theme--dark"><div class="v-application--wrap"><header class="header"><div class="header__title"><label class="burger"><span></span><span></span><span></span><span></span><input type="checkbox" class="burger__checkbox"></label><strong class="header__titleText"><a href="/blog/" class="active">Run Together TW</a></strong></div><nav class="nav"><a href="/blog/post-list/" class="nav__link">文章列表</a><a href="/gdq/" class="nav__link">GDQ時程表</a></nav></header><main class="main"><div class="container MainContent MainContent--mobile"><div class="MainContent__content"><h1 class="mb-4">
+      遊戲: 薩爾達傳說 曠野之息
+    </h1><article class="my-3"><div class="mx-auto v-card v-sheet theme--dark"><a href="/blog/post/id9000/zelda-botw-master-sword-rta-note/"><div class="v-image v-responsive white--text align-end theme--dark" style="height:250px;"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"><div class="v-card__title text-shadow">薩爾達傳說 曠野之息 – 大師劍RTA簡略筆記</div></div></div><div class="v-card__subtitle py-2">大師劍RTA筆記</div></a><div class="mx-4 PostArticle__game--vertical"><a href="/blog/game/botw/" aria-current="page" class="active--exact active">
+          薩爾達傳說 曠野之息
+        </a><!----><span><a href="/blog/tag/%E8%96%A9%E7%88%BE%E9%81%94%E7%B3%BB%E5%88%97/" class="mr-1 pointer"><span draggable="false" class="v-chip v-chip--no-color theme--dark v-size--small"><span class="v-chip__content">
+              薩爾達系列
+            </span></span></a><a href="/blog/tag/RTA%E7%AD%86%E8%A8%98/" class="mr-1 pointer"><span draggable="false" class="v-chip v-chip--no-color theme--dark v-size--small"><span class="v-chip__content">
+              RTA筆記
+            </span></span></a></span></div><div class="v-card__text PostArticle__author"><div class="v-avatar" style="height:48px;min-width:48px;width:48px;background-color:#333333;border-color:#333333;"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/id9000-profile_image-1effadc2a2c9b046-300x300.jpeg" alt="阿九"></div><div class="PostArticle__info"><a href="/blog/author/id9000"><div class="text--primary">阿九</div></a><div>2018 Jun 18．5 min read</div></div></div></div></article><Pager info="[object Object]" class="PostList__pagination"></Pager></div><div class="MainContent__sidebar"><div><h3>Run Together TW</h3><div><a href="http://github.com/runtogether-tw/" target="_blank" rel="noopener"><i aria-hidden="true" class="v-icon notranslate fab fa-github-square theme--dark"></i></a></div><div class="Sidebar__menuBlock"><h3>
+          過往活動
+        </h3><hr><a href="https://sites.google.com/site/tgm3rt2018/" target="_blank" rel="noopener">
+          Run Together 2018
+        </a></div><div class="Sidebar__menuBlock"><h3>作者列表</h3><hr><div class="v-item-group theme--dark v-slide-group v-chip-group v-chip-group--column"><div class="v-slide-group__prev v-slide-group__prev--disabled"><!----></div><div class="v-slide-group__wrapper"><div class="v-slide-group__content"><div class="v-menu"><span tabindex="0" draggable="false" class="v-chip v-chip--clickable v-chip--no-color v-chip--pill theme--dark v-size--default"><span class="v-chip__content"><div class="v-avatar v-avatar--left" style="height:48px;min-width:48px;width:48px;background-color:#333333;border-color:#333333;"><div class="v-image v-responsive theme--dark"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div>
+          阿九
+        </span></span><!----></div><div class="v-menu"><span tabindex="0" draggable="false" class="v-chip v-chip--clickable v-chip--no-color v-chip--pill theme--dark v-size--default"><span class="v-chip__content"><div class="v-avatar v-avatar--left" style="height:48px;min-width:48px;width:48px;background-color:#333333;border-color:#333333;"><div class="v-image v-responsive theme--dark"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div></div>
+          里斯
+        </span></span><!----></div></div></div><div class="v-slide-group__next v-slide-group__next--disabled"><!----></div></div></div><div class="Sidebar__menuBlock"><h3>標籤</h3><hr><div class="v-item-group theme--dark v-slide-group v-chip-group v-chip-group--column"><div class="v-slide-group__prev v-slide-group__prev--disabled"><!----></div><div class="v-slide-group__wrapper"><div class="v-slide-group__content"><a href="/blog/tag/RTA%E7%AD%86%E8%A8%98/"><span tabindex="0" draggable="false" class="v-chip v-chip--clickable v-chip--no-color theme--dark v-size--small"><span class="v-chip__content">
+        RTA筆記
+      </span></span></a><a href="/blog/tag/%E8%96%A9%E7%88%BE%E9%81%94%E7%B3%BB%E5%88%97/"><span tabindex="0" draggable="false" class="v-chip v-chip--clickable v-chip--no-color theme--dark v-size--small"><span class="v-chip__content">
+        薩爾達系列
+      </span></span></a><a href="/blog/tag/%E7%B6%B2%E7%AB%99%E7%9B%B8%E9%97%9C/"><span tabindex="0" draggable="false" class="v-chip v-chip--clickable v-chip--no-color theme--dark v-size--small"><span class="v-chip__content">
+        網站相關
+      </span></span></a></div></div><div class="v-slide-group__next v-slide-group__next--disabled"><!----></div></div></div></div></div></div></main></div></div>
+    <script>window.__INITIAL_STATE__={"data":{"game":{"title":"botw","belongsTo":{"totalCount":1,"pageInfo":{"totalPages":1,"currentPage":1},"edges":[{"node":{"title":"薩爾達傳說 曠野之息 – 大師劍RTA簡略筆記","subtitle":"大師劍RTA筆記","author":{"id":"id9000","title":{"name":"阿九","img":"https:\u002F\u002Fstatic-cdn.jtvnw.net\u002Fjtv_user_pictures\u002Fid9000-profile_image-1effadc2a2c9b046-300x300.jpeg"}},"content":"\u003Ch2 id=\"路線a（初始台地）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Aa%EF%BC%88%E5%88%9D%E5%A7%8B%E5%8F%B0%E5%9C%B0%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線A（初始台地）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FfyY4syE.png\" loading=\"lazy\" alt=\"路線A\" \u002F\u003E\n          \u003Cfigcaption\u003E路線A\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E撿起：蘑菇x1、老人營火旁斧頭、蘋果x2~3、草x1、箭x4~5、高塔前波克布林的盾牌\u003C\u002Fli\u003E\n\u003Cli\u003E從高塔躍下，取消落地傷害\u003C\u002Fli\u003E\n\u003Cli\u003E前往神廟：磁力抓取器(1)，進去前開一旁的寶箱，紅寶石x1\u003C\u002Fli\u003E\n\u003Cli\u003E前往神廟：遙控炸彈(2)（不要觸發守護者甦醒的動畫）\u003C\u002Fli\u003E\n\u003Cli\u003E蹲下，打開地圖，傳送到重生祠堂\u003C\u002Fli\u003E\n\u003Cli\u003E出洞穴向左，撿起蘑菇x3，上坡，二段跳過冰河，爬山，前往神廟：製冰器(3)\u003Cbr\u003E\n（寒冷天氣10秒扣半心，適時補血）\u003C\u002Fli\u003E\n\u003Cli\u003E應用盾牌滑行，前往神廟：靜止器(4)，神廟內撿起鐵鎚\u003C\u002Fli\u003E\n\u003Cli\u003E時停飛行：抱住大石，往時之神廟方向，取得滑翔傘，開寶箱拿弓，傳送到磁力抓取器神廟\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"路線b（古代馬鞍）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Ab%EF%BC%88%E5%8F%A4%E4%BB%A3%E9%A6%AC%E9%9E%8D%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線B（古代馬鞍）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FTP3m65k.png\" loading=\"lazy\" alt=\"路線B\" \u002F\u003E\n          \u003Cfigcaption\u003E路線B\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E繞到神廟後方撿起草x5，跑至一旁沼澤，用製冰器\u002F二段跳開兩個寶箱，冰箭x5+火箭x5\u003C\u002Fli\u003E\n\u003Cli\u003E找馬\u003Cbr\u003E\nA方案：撿完草後從前方坑洞往下跳，馴服任一匹馬（皆為3速）\u003Cbr\u003E\nB方案（時停彈射）：使用神廟旁的鐵箱，飛到大石頭上，存檔，看臉馴服4速馬（體力3）\u003C\u002Fli\u003E\n\u003Cli\u003EWahgo Katta(5)\u003C\u002Fli\u003E\n\u003Cli\u003E至一旁驛站下馬餵蘋果x2，進驛站賣紅寶石x1，登記馬,第一個選項按B\u003C\u002Fli\u003E\n\u003Cli\u003EBosh Kala(6)\u003C\u002Fli\u003E\n\u003Cli\u003E跑步or時停彈射(石頭&#x26;樹)\u003C\u002Fli\u003E\n\u003Cli\u003E路上拿大刀x1，速度蘑菇x2\u003C\u002Fli\u003E\n\u003Cli\u003EPumaag Nitae(7)\u003C\u002Fli\u003E\n\u003Cli\u003E跑步or時停彈射(樹幹,難)\u003C\u002Fli\u003E\n\u003Cli\u003EKa’o Makagh(8)\u003C\u002Fli\u003E\n\u003Cli\u003E跑步or時停彈射(樹幹,難)\u003C\u002Fli\u003E\n\u003Cli\u003E抓青蛙x3,拿馬鞍\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到靜止器神廟\u003C\u002Fli\u003E\n\u003Cli\u003E時停彈射：樹幹\u003C\u002Fli\u003E\n\u003Cli\u003EYa Naga(9)\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到製冰器神廟\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"路線c（神獸梅德）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Ac%EF%BC%88%E7%A5%9E%E7%8D%B8%E6%A2%85%E5%BE%B7%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線C（神獸梅德）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FNavsScc.png\" loading=\"lazy\" alt=\"路線C\" \u002F\u003E\n          \u003Cfigcaption\u003E路線C\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E跳到一旁屋頂，開寶箱拿炸彈箭，時停彈射：寶箱，背向寶箱\u003C\u002Fli\u003E\n\u003Cli\u003ERota Ooh(10)\u003C\u002Fli\u003E\n\u003Cli\u003E滑到下方驛站拿斧頭x1，坐營火(早上)，向Beedle買青蛙x3，領馬時確認親密度是否為100，至一旁換古代馬鞍\u003C\u002Fli\u003E\n\u003Cli\u003EKaam Ya’tak(11)\u003C\u002Fli\u003E\n\u003Cli\u003EKatah Chuki(12)\u003C\u002Fli\u003E\n\u003Cli\u003ENoya Neha(13)\u003C\u002Fli\u003E\n\u003Cli\u003E製冰器過河+跑步or時停彈射(鐵箱)\u003C\u002Fli\u003E\n\u003Cli\u003EZalta Wa(14)\u003C\u002Fli\u003E\n\u003Cli\u003ESheem Dagoze(15)\u003C\u002Fli\u003E\n\u003Cli\u003EShae Loya(16)\u003C\u002Fli\u003E\n\u003Cli\u003E在一旁驛站撿：斧頭、野莓x3\u003C\u002Fli\u003E\n\u003Cli\u003E跟Toren借500塊\u003C\u002Fli\u003E\n\u003Cli\u003E時停彈射：砍樹(?，橫越峽谷\u003C\u002Fli\u003E\n\u003Cli\u003E向上爬，時停彈射：砍樹，往利特村方向\u003C\u002Fli\u003E\n\u003Cli\u003EAkh Va’quot(17)\u003C\u002Fli\u003E\n\u003Cli\u003E與村民對話\u003C\u002Fli\u003E\n\u003Cli\u003E滑翔至下方商店，買Sunshroom x3、箭x10、炸彈箭x10\u003C\u002Fli\u003E\n\u003Cli\u003E至下方樹叢，時停彈射：砍樹，往靶場方向\u003C\u002Fli\u003E\n\u003Cli\u003ESha Warvo(18)\u003C\u002Fli\u003E\n\u003Cli\u003E在靶場撿起：箭x10\u003Cbr\u003E\n煮：Sunshroom x3；青蛙x3+蘑菇x1+零件x1；青蛙x3+蘑菇x1+零件x1，共3道\u003C\u002Fli\u003E\n\u003Cli\u003E立刻吃2級防寒料理\u003C\u002Fli\u003E\n\u003Cli\u003E與Teba對話，完成訓練，取得遊隼弓+炸彈箭\u003C\u002Fli\u003E\n\u003Cli\u003E神獸梅德\u003C\u002Fli\u003E\n\u003Cli\u003E擊敗風咒加儂，拿心心\u003C\u002Fli\u003E\n\u003Cli\u003E跳到下方營火，坐到中午\u003C\u002Fli\u003E\n\u003Cli\u003E往南飛，平台亮起時射火箭\u003C\u002Fli\u003E\n\u003Cli\u003EBareeda Naag(19)\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到Bosh Kala神廟\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"路線d（雙峰）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Ad%EF%BC%88%E9%9B%99%E5%B3%B0%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線D（雙峰）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FUQwomZ1.png\" loading=\"lazy\" alt=\"路線D\" \u002F\u003E\n          \u003Cfigcaption\u003E路線D\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E吹口哨召喚馬,騎到山谷\u003C\u002Fli\u003E\n\u003Cli\u003E用上升氣流x3爬山\u003C\u002Fli\u003E\n\u003Cli\u003EShee Vaneer(20)\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ctable\u003E\n\u003Cthead\u003E\n\u003Ctr\u003E\n\u003Cth align=\"center\"\u003Erow1\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow2\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow3\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow4\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow5\u003C\u002Fth\u003E\n\u003C\u002Ftr\u003E\n\u003C\u002Fthead\u003E\n\u003Ctbody\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003C\u002Ftbody\u003E\n\u003C\u002Ftable\u003E\n\u003Cul\u003E\n\u003Cli\u003EShee Vanath(21)\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ctable\u003E\n\u003Cthead\u003E\n\u003Ctr\u003E\n\u003Cth align=\"center\"\u003Erow1\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow2\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow3\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow4\u003C\u002Fth\u003E\n\u003Cth align=\"center\"\u003Erow5\u003C\u002Fth\u003E\n\u003C\u002Ftr\u003E\n\u003C\u002Fthead\u003E\n\u003Ctbody\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003Ctr\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003E\u003C\u002Ftd\u003E\n\u003Ctd align=\"center\"\u003Ex\u003C\u002Ftd\u003E\n\u003C\u002Ftr\u003E\n\u003C\u002Ftbody\u003E\n\u003C\u002Ftable\u003E\n\u003Cul\u003E\n\u003Cli\u003E往下跳\u003C\u002Fli\u003E\n\u003Cli\u003ERee Dahee(22)\u003C\u002Fli\u003E\n\u003Cli\u003EHa Dahamar(23)\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到Wahgo Katta神廟\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"路線e（死亡之山）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Ae%EF%BC%88%E6%AD%BB%E4%BA%A1%E4%B9%8B%E5%B1%B1%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線E（死亡之山）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FfnorePU.png\" loading=\"lazy\" alt=\"路線E\" \u002F\u003E\n          \u003Cfigcaption\u003E路線E\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E吹口哨召喚馬,騎到河畔,用製冰器過河 or 時停彈射(樹幹,難)\u003C\u002Fli\u003E\n\u003Cli\u003EHila Rao(24)\u003C\u002Fli\u003E\n\u003Cli\u003E使用上升氣流,飛到對岸\u003C\u002Fli\u003E\n\u003Cli\u003E吹口哨召喚馬\u003C\u002Fli\u003E\n\u003Cli\u003EKaya Wan(25)\u003C\u002Fli\u003E\n\u003Cli\u003E如果時間接近晚上,在驛站營火休息到早上\u003C\u002Fli\u003E\n\u003Cli\u003EDaka Tuss(26)\u003C\u002Fli\u003E\n\u003Cli\u003E到河畔時使用上升氣流\u003C\u002Fli\u003E\n\u003Cli\u003ESheh Rata(27)\n如採用速解法,在神廟內使用炸彈炸自己一次\n正規解則不用\u003C\u002Fli\u003E\n\u003Cli\u003E再使用上升氣流,飛到對岸,吹口哨召喚馬\u003C\u002Fli\u003E\n\u003Cli\u003ESoh Kofi(28)\u003C\u002Fli\u003E\n\u003Cli\u003E時停彈射(樹幹),到地面時喝加速藥水\u003C\u002Fli\u003E\n\u003Cli\u003ETah Muhl(29)\u003C\u002Fli\u003E\n\u003Cli\u003EMo’a Keet(30)\u003C\u002Fli\u003E\n\u003Cli\u003E跑步or時停彈射(木箱)\u003C\u002Fli\u003E\n\u003Cli\u003ESah Dahaj(31)\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到Zalta Wa神廟\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n\u003Ch2 id=\"路線f（海拉魯大森林）\"\u003E\u003Ca href=\"#%E8%B7%AF%E7%B7%9Af%EF%BC%88%E6%B5%B7%E6%8B%89%E9%AD%AF%E5%A4%A7%E6%A3%AE%E6%9E%97%EF%BC%89\" aria-hidden=\"true\"\u003E#\u003C\u002Fa\u003E路線F（海拉魯大森林）\u003C\u002Fh2\u003E\n\u003Cp\u003E\n        \u003Cfigure\u003E\n          \u003Cimg src=\"https:\u002F\u002Fi.imgur.com\u002FGrucKy7.png\" loading=\"lazy\" alt=\"路線F\" \u002F\u003E\n          \u003Cfigcaption\u003E路線F\u003C\u002Ffigcaption\u003E\n        \u003C\u002Ffigure\u003E\u003C\u002Fp\u003E\n\u003Cul\u003E\n\u003Cli\u003E吹口哨召喚馬,騎到懸崖旁,用鐵鎚打碎神廟外的碎石\u003C\u002Fli\u003E\n\u003Cli\u003EMaag No’rah(32)\u003C\u002Fli\u003E\n\u003Cli\u003EMonya Toma(33)\u003C\u002Fli\u003E\n\u003Cli\u003E往東北方騎,平原上千萬不要向左看,上一個看的人他......\u003C\u002Fli\u003E\n\u003Cli\u003E時停彈射(樹幹,中上),進森林後喝加速藥水\u003C\u002Fli\u003E\n\u003Cli\u003E用磁力抓取器把盾牌丟進樹幹嘴裡\u003C\u002Fli\u003E\n\u003Cli\u003E用寶箱開船,把盾牌丟進樹幹嘴裡\u003C\u002Fli\u003E\n\u003Cli\u003EKuhn Sidajj(34)\u003C\u002Fli\u003E\n\u003Cli\u003E跑到神廟後的迷霧,回到森林中央\u003C\u002Fli\u003E\n\u003Cli\u003E啟動Keo Ruug神廟傳送點,先不要解\u003C\u002Fli\u003E\n\u003Cli\u003E往西北方跑,與呀哈哈對話開始任務\u003C\u002Fli\u003E\n\u003Cli\u003E使用上升氣流x2前往神廟\u003C\u002Fli\u003E\n\u003Cli\u003EDaag Chokah(35)\u003C\u002Fli\u003E\n\u003Cli\u003E傳送到Keo Ruug神廟\u003C\u002Fli\u003E\n\u003Cli\u003EKeo Ruug(36),正解=5312\u003C\u002Fli\u003E\n\u003Cli\u003E使用上升氣流前往大樹中的女神像\u003C\u002Fli\u003E\n\u003Cli\u003E換心心\u003C\u002Fli\u003E\n\u003Cli\u003E拔劍\u003C\u002Fli\u003E\n\u003C\u002Ful\u003E\n","path":"\u002Fpost\u002Fid9000\u002Fzelda-botw-master-sword-rta-note\u002F","date":"2018 Jun 18","game":{"title":"botw","path":"\u002Fgame\u002Fbotw\u002F"},"tags":[{"title":"薩爾達系列","path":"\u002Ftag\u002F%E8%96%A9%E7%88%BE%E9%81%94%E7%B3%BB%E5%88%97\u002F"},{"title":"RTA筆記","path":"\u002Ftag\u002FRTA%E7%AD%86%E8%A8%98\u002F"}],"timeToRead":5}}]}}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/blog/assets/js/app.76187cbd.js" defer></script><script src="/blog/assets/js/page--src--templates--game-vue.90f0fa4b.js" defer></script>
+  </body>
+</html>
